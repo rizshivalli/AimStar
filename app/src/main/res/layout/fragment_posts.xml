@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabsfragment.PostsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The Admission starts June 3"
+        android:textSize="15dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="admission form can be downloaded on website"
+        android:textSize="15dp"
+        android:padding="5dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Contact us for more information"
+        android:textSize="15dp"
+        android:padding="5dp"/>
+    </LinearLayout>
+</FrameLayout>

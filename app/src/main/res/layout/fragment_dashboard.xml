@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dashboardContainer"
+    tools:context="com.css.aimstar.aimstar.fragments.DashboardFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/track"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Track to Reach"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/LightBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:text="Certified on basis to achieve  things"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="Certified on basis to achieve  things"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/resource"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:text="Resources"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/LightBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:text="Help you to prepare for everything realted to your goal to achieve Certified on basis to achieve  things"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/certificate"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+
+            app:cardCornerRadius="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Level Certication"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/LightBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:text="Certified on basis to achieve  things"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="Certified on basis to achieve  things"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/help"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Help"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/LightBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:text="Guide you overall things  to work on"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/feedback"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="Feedback"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/LightBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:text="will improving things to make everything perfect for you"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

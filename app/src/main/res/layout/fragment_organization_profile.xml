@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.css.aimstar.aimstar.fragments.OrganizationProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme1">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                app:contentScrim="?attr/colorPrimary"
+                app:expandedTitleMarginEnd="64dp"
+                app:expandedTitleMarginStart="48dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="20dp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/header_cover_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kle" />
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="Direction"
+            android:background="@color/colorWhite"
+            />
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"
+            android:background="@color/colorWhite"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:background="@color/colorWhite"/>
+    </LinearLayout>
+    <!--  <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/profileTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        app:tabTextColor="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        android:elevation="5dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed">
+
+
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPagerProfile"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    </android.support.v4.view.ViewPager>
+    <!-- </LinearLayout>-->
+
+</LinearLayout>

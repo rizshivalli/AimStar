@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8CC63F</color>
+    <color name="colorPrimaryDark">#88A80D</color>
+    <color name="colorAccent">#0071BC</color>
+    <color name="colorWhite">#FFFFFF</color>
+       <color name="colorTab">#2bbc07</color>
+    <color name="colorButton">#02e6de</color>
+    <color name="YellowGreen">#9acd32</color>
+    <color name="GrayScale">#7f7f7f</color>
+    <color name="paleGoldenRod">#EEE8AA</color>
+    <color name="LightGrey">#DCDCDC</color>
+    <color name="LightGreen">#33bd2a</color>
+    <color name="LightBlue">#fb3f54ec</color>
+    <color name="black">#000000</color>
+    <color name="peachorange">#ffc285</color>
+    <color name="green">#70B234</color>
+    <color name="profiletab">#edecec</color>
+</resources>

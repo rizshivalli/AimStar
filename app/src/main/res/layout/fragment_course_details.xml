@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.RecyclerFragment">
+
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+
+
+
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:id="@+id/textView_commerce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Commerce"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="1dp"
+                android:background="@color/LightBlue"/>
+
+
+            <TextView
+                android:id="@+id/textView_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:text="Languages"
+                android:textSize="15dp"/>
+            <View
+                android:layout_width="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="1dp"
+                android:background="@color/LightBlue"/>
+            <TextView
+                android:id="@+id/textView_language_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:text="* Marati/Hindi/French/Sindhi/Gujrathi/Urdu/IT" />
+
+            <TextView
+                android:id="@+id/textView_subjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:text="Subjects"
+                android:textSize="18dp"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="1dp"
+                android:background="@color/LightBlue"/>
+
+            <TextView
+                android:id="@+id/textView_subjects_option_bookkeeping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:text="* Bookkeeping and Accounting" />
+
+            <TextView
+                android:id="@+id/textView_subjects_option_Org_commerce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:text="* Organisation of Commerce" />
+            <TextView
+                android:id="@+id/textView_subjects_option_economics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:text="* Economics" />
+
+            <TextView
+                android:id="@+id/textView_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:text="Options"
+                android:textSize="18dp"/>
+
+            <View
+                android:layout_width="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="1dp"
+                android:background="@color/LightBlue"/>
+            <TextView
+                android:id="@+id/textView_subjectOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                android:text="* Mathematics/Statistics/Secretarial Practices" />
+
+            <TextView
+                android:id="@+id/textView_institutesNearBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:text="Education Institutes Nearby:" />
+            <View
+                android:layout_width="230dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="1dp"
+                android:background="@color/LightBlue"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_search"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Search Location" />
+
+                <Button
+                    android:id="@+id/button_go"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+
+                    android:background="@color/YellowGreen"
+                    android:text="Go"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_viewAll"
+                android:layout_width="60dp"
+                android:layout_height="23dp"
+                android:background="@color/LightBlue"
+                android:text="View All"
+                android:textSize="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="end"/>
+
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rViewCollege"
+                android:background="@color/LightGrey"
+                >
+
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

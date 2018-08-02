@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:text="Your Education"
+            android:textColor=" #626262"
+
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp">
+
+        <View
+            android:layout_width="68dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/myTextView"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:background="@drawable/circle3"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="1"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:clickable="true"
+            android:layout_centerInParent="true"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/circle3"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="2"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:clickable="true"
+                android:layout_centerInParent="true"/></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/circle3"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="3"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:clickable="true"
+                android:layout_centerInParent="true"/></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/circle3"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="4"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:clickable="true"
+                android:layout_centerInParent="true"/></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/circle3"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="5"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:clickable="true"
+                android:layout_centerInParent="true"/></LinearLayout></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:background="@drawable/circle3"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="6"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:clickable="true"
+            android:layout_centerInParent="true"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/circle4"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="7"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:clickable="true"
+
+                android:layout_centerInParent="true"/></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:background="@drawable/circle5"
+                android:gravity="center"
+                android:textColor="#626262"
+                android:text="8"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:clickable="true"
+                android:layout_centerInParent="true"/></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="@drawable/circle5"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#626262"
+                android:text="9"
+                android:clickable="true"
+                android:layout_centerInParent="true"/></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:background="@drawable/circle5"
+                android:gravity="center"
+                android:clickable="true"
+                android:textColor="#626262"
+                android:text="10"
+                android:layout_centerInParent="true"/></LinearLayout></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="14dp"
+            android:text="Recomended Diploma/Pre University Course"
+            android:textColor="#626262"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp">
+
+            <View
+                android:layout_width="310dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/myTextView"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp">
+
+        <Button
+            android:id="@+id/recommendedCourse"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:text="11-12/PUC(commerce)"
+            android:textColor="#626262"
+
+            android:textSize="11dp" /></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        android:textColor="#626262"
+        android:text="Note:Click on each section to get more info"
+        android:paddingLeft="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        android:text="Other"
+        android:textColor="#626262"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp">
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/myTextView"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/otherCourse1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="11-12/PUC(Science)"
+            android:textColor="#626262"
+            android:textSize="10dp"
+
+
+            android:background="@drawable/btnborder"
+            android:paddingLeft="1dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+
+            <Button
+                android:id="@+id/otherCourse2"
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:paddingLeft="10dp"
+                android:textColor="#626262"
+                android:gravity="center"
+                android:text="11-12/PUC(Arts)"
+                android:background="@drawable/btnborder"
+                android:textSize="10dp" /></LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:text="Recomended Graduate Course"
+            android:textColor="#626262"
+            android:textSize="18dp"
+            android:textStyle="bold" /> </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp">
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/myTextView"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:paddingLeft="14dp"
+            android:textColor="#626262"
+            android:text="BBA"
+            android:id="@+id/graduationCourse1"
+            android:textSize="12dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="1dp">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:paddingLeft="14dp"
+                android:textColor="#626262"
+                android:text="BBM"
+                android:id="@+id/graduationCourse2"
+                android:textSize="12dp" />  </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#626262"
+        android:textStyle="bold"
+        android:text="Other"
+        android:paddingLeft="14dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp">
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/myTextView"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="7dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="BCom"
+                android:id="@+id/otherRCourse1"
+                android:textSize="12dp"
+                android:textColor="#626262"
+                android:padding="5dp"
+                android:background="@drawable/btnborder"
+                android:paddingLeft="14dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp">
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:paddingLeft="14dp"
+                android:text="BCA"
+                android:id="@+id/otherRCourse2"
+                android:textColor="#626262"
+                android:padding="5dp"
+                android:background="@drawable/btnborder"
+                android:textSize="12dp" /></LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
